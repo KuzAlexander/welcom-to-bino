@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 34" width="21" height="34">
+	<defs>
+		<image  width="21" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAMAAACHtmKxAAAAAXNSR0IB2cksfwAAAftQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VPYrHQAAAKl0Uk5TAAQiZaTAvrm9pmklATd9qK+fj4mOna6pgTsNRZa1YTYeITRflJpKDwayaigKAwImZLCtUQcxmbRmGheeOQxvFRJos0C4kR+KuoVVTaeCLr9zGWtsE2K2cBstHRYsBTNuWxxxepsne0mXRkgJfHYLEXRTFJhOI5AwiKUyTJJWqrcphox1IISNh08/f4ArWTpXeIs9YGMOZ128wQg+fkdYXBhSg23HyufW63ze3lUAAAIUSURBVHicXdH5XxJBFADwt5TSAlGCxGZgmpzKbiJoiBRCHC43VoLSRRyJRhKpkRUJBBRdEkrXdp9/ZusHpLb305vvzGfmzXsAdCCsffu7utkHulAOF4F28A7yDx3uEQh7RUfE2FFeC/uOSaSS/uOsgcETQzKpXKHcRZUCVQ+PaHA6JTQnR7VjOj2djk+cMkzi7csI45B6ygRwWig9Yyag88a0xSpQwlmbnQv/hsM5owBS7CIYCm6PHaxeH4+pI3w2+AMDTITg7Ax0nzP+p+cvzIE/FAY8PN/aMvsWEIhY2GDFLsKly1euRmk0uq6Z9MCNSUEYdyNEIinS0Xp9EfMhvJREBkvamBmWFZ4bdH1pj+4mrGS0tyB727OKwxq2boI7glyCRyzd7QkCpND4Bqju2QPAuf9AD/OS/Cp9mT70MDYJm0IBFIrjkC3Z0prdcjYLeZfqUbkCZDWBPM5XfK2yn6BF1lotB0+9zxzOfGqvSxn5842QE7DAi5fyLVZbVaa6022hz3J0wvor/d7PI6WpxnYSAo2GqBTs9GOniWL88jQ/XRMPKzva99rmf6PeHpvzvzX81Xfve9H4OiWYQBdTmo7ixg/JClkpVCh3GO8o8LIfqyRZzn36zJjhzhdvbYv66lphTCXan6NilHDUwdCFpqxYrctmBxm67DOQFNnc0DAUlN++235kskyEiPfnr9/1aHv1B2C0eZ34h61LAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Case Study">
+		<g id="1">
+			<use id="3" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,18 @@
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        margin-right: 20px;
+    }
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: $gray;
+        transition: color 500ms ease;
+        &:hover {
+            color: $red;
+        }
+    }
+}

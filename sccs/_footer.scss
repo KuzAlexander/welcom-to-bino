@@ -1,0 +1,17 @@
+.footer {
+    background-color: #202020;
+		&__wrap {
+            padding: 35px 15px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+		}
+
+		&__text {
+            font-size: 14px;
+            line-height: 24px;
+            color: $gray;
+            font-weight: 600;
+            font-family: $open_sans;            
+		}
+}

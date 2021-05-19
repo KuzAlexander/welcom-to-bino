@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31" width="31" height="31">
+	<defs>
+		<image  width="31" height="31" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAMAAAAocOYLAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TACBAYP/P749QEL9/r59wMN+GNhS+AAAAwElEQVR4nM2TSRKEIBAEWcpmaQT//9ppEXUmBLxORhgeUhq0SqW+0caoCRbAMvEEt8APdUBUHjz0HkkZuUassOLdcDwhiB/OT/vSsbegMPEZVFTHa7L73unQ4m+Sbgs0E7aqVYkXBNKHZ8CF3vvG0/c/6obSfD82Rp56g/XFx7/2/uX8LG7mUy3U2BP0mQ9idPqx/ZXPwfobYv0XrsKUvKF2pSGVifV2Z+sAipyNYFfC8uiESXe7iDuVkUcyV9rUDxLZB93eqC5pAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Check Out Stats">
+		<g id="3">
+			<g id="Icon">
+				<use id="" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

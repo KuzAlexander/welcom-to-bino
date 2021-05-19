@@ -1,0 +1,123 @@
+.blog {
+    border-top: 1px solid #d8d9db;
+    background-color: #f4f5f9;
+		&__wrap {
+            padding: 120px 15px 0;
+		}
+
+		&__headline {
+		}
+
+		&__items {
+            max-width: 1920px;
+            margin: 70px auto 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;            
+		}
+
+		&__item {
+            flex-basis: 50%;
+            display: flex;
+            color: $white; 
+            &--left {
+                .blog {
+                    &__img {
+                        order: 1;
+                    }
+                    &__text {
+                        &::after {
+                            border-right: 30px solid transparent;
+                            border-left: 25px solid $red;
+                            left: auto;
+                            right: -54px;
+                        }
+                    }
+                }
+            }       
+		}
+
+		&__img {
+            flex-basis: 50%;
+            img {
+                display: block;
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+		}
+
+		&__text {
+            flex-basis: 50%;
+            padding: 70px 50px;
+            box-sizing: border-box;
+            background-color: $red;
+            position: relative; 
+            &::after {
+                content: "";
+                display: block;
+                border: 30px solid transparent;
+                border-right: 25px solid $red;
+                position: absolute;
+                top: 50%;
+                left: -54px;
+                transform: translateY(-50%);
+            }    
+		}
+
+		&__title {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-family: $open_sans;
+		}
+
+		&__subtitle {
+            margin-top: 28px;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-family: $source_sans_pro; 
+            &:after {
+                content: "";
+                display: block;
+                width: 45px;
+                height: 5px;
+                background-color: $white;
+                margin-top: 20px;
+            }           
+		}
+
+		&__desc {
+            margin-top: 50px;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            font-family: $open_sans;            
+		}
+
+		&__link {
+            display: block;
+            margin-top: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 24px;
+            color: $white;
+            font-weight: 600;
+            font-style: italic;
+            font-family: $open_sans;
+            position: relative;
+            &::after {
+                content: "";
+                display: block;
+                border: 7px solid transparent;
+                border-left: 5px solid $white;
+                position: absolute;
+                top: 7px;
+                left: 108px;
+            }             
+            &:hover {
+                text-decoration: underline;
+            }
+		}
+}

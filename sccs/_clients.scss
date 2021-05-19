@@ -1,0 +1,30 @@
+.clients {
+    background-color: #f4f5f9;
+		&__wrap {
+            padding: 150px 15px;
+		}
+
+		&__logo {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+		}
+
+		&__item {
+            flex-basis: 18.2%;
+            height: 100px;
+            margin-top: 30px;
+            background-color: $white;
+            box-shadow: 0 1px 3px rgba(31, 31, 31, 0.09);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            img {
+                max-width: 100%;
+            }
+		}
+}
+
+

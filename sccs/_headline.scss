@@ -1,0 +1,35 @@
+.headline {
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        font-family: $source_sans_pro;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #6a6a6a;
+        text-transform: uppercase;
+        &--white {
+            color: $white;
+        }
+    }
+
+    &__subtitle {
+        font-size: 14px;
+        line-height: 29px;
+        color: $gray;
+        font-weight: 400;
+        font-family: $open_sans;
+        text-align: center; 
+        margin-top: 25px;
+        &--white {
+            color: #f4f5f9;
+        }       
+    }
+
+    &__devider {
+        margin: 20px auto 0;
+        position: relative;  
+        &--white {
+            @include devider ($white);
+        }      
+    }
+}

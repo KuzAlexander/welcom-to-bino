@@ -1,0 +1,63 @@
+@mixin devider ($color: $gray) {
+    p {
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;                    
+            width: 8px;
+            height: 8px;
+            background-color: $red;
+            border-radius: 50%;                    
+        }
+    }
+    &::before, &::after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 1px;
+        background-color: $color;
+        position: absolute;
+        top: 50%;
+    }
+    &::before {
+        right: 15px;
+    }  
+    &::after {
+        left: 15px;
+    } 
+}
+
+@mixin button() {
+    display: inline-block;
+    width: 225px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: $open_sans;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 18px 0;
+    background-color: $red;
+    color: $white;
+    text-decoration: none; 
+    border: 1px solid $red;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    transition: all 500ms ease;
+    @content;
+    &:nth-child(2) {
+        background-color: transparent;
+        border-color: $white;
+    } 
+    &:hover {
+        background-color: darken($red, 10%);
+        border-color: $red;
+        &:nth-child(1) {
+            background-color: darken($red, 10%);
+        }
+        &:nth-child(2) {
+            background-color: transparent;
+            border-color: darken($red, 10%);
+            color: darken($red, 10%);
+        }     
+    }  
+}

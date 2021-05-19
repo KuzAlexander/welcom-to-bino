@@ -1,0 +1,63 @@
+.stats {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(../images/Putyourimage.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 150px 15px;
+        
+    }
+
+    &__element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__img {
+        width: 110px;
+        height: 110px;
+        border: 1px solid white;
+        border-radius: 50%;
+        position: relative;
+        margin-bottom: 50px;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: #f4f5f9;
+        font-weight: 700;
+        font-family: $source_sans_pro;
+        span{
+            display: block;
+            font-size: 14px;
+            margin-top: 15px;
+            font-weight: 400;
+        }
+    }
+}
+
