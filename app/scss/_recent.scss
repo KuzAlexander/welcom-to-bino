@@ -1,0 +1,101 @@
+.recent {
+    background-color: $white;
+    overflow: hidden;
+    &__wrap {
+        max-width: 1920px;
+        margin: 140px auto 0;
+    }
+    &__headline {
+        padding: 0 15px;
+    }
+    &__links {
+        margin: 60px 0 45px 0;
+        text-align: center;
+        a {
+            display: inline-block;
+            margin: 5px 0;
+            padding: 0 17px;
+            text-decoration: none;
+            font-size: 14px;
+            color: $gray;
+            font-weight: 700;
+            font-family: $open_sans;
+            transition: all 500ms ease;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+
+    &__works {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__work {
+        flex-basis: 25%;
+        position: relative;
+        a {
+            display: block;
+            text-decoration: none;
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(231, 76, 60, 0.8);
+                transition: all 500ms ease;
+                opacity: 0;
+            }
+            &:hover {  
+                &::after {
+                    opacity: 1;
+                }
+                p {
+                    opacity: 1;
+                    z-index: 1;
+                }
+            }                 
+            img {
+                display: block;
+                max-width: 100%;
+            }
+            p {
+                position: absolute;
+                left: 10%;
+                bottom: 50px;
+                opacity: 0;
+                transition: all 500ms ease;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 45px;
+                    height: 4px;
+                    background-color: $white;
+                    margin-bottom: 30px;
+                }                
+                span {
+                    display: block;
+                    font-size: 24px;
+                    letter-spacing: 1px;
+                    color: $white;
+                    font-weight: 600;
+                    font-family: $source_sans_pro;
+                    &:last-child {
+                        margin-top: 20px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: $open_sans;
+                    }
+                }
+
+            }
+                 
+        }
+
+    }
+}
